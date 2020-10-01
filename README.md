@@ -1,5 +1,5 @@
 # GrundlagenDerDatenbanken-
-Hausaufgaben 
+Hausaufgaben von:
 Salman Fichtner
 Julian Schmelz
 Julian Banzhaf
