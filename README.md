@@ -1,6 +1,6 @@
 # GrundlagenDerDatenbanken-
 Hausaufgaben von:
-Salman Fichtner,
+Salzmann Fichtner,
 Julian Schmelz,
 Julian Banzhaf,
 Sujan Kanapathipillai,
