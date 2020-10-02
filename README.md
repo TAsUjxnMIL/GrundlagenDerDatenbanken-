@@ -1,6 +1,6 @@
 # GrundlagenDerDatenbanken-
 Hausaufgaben von:
-Julian Schmelz,<br />
+<br /> Julian Schmelz,<br />
 Julian Banzhaf,<br />
 Sujan Kanapathipillai,<br />
 Christian Caniglia,<br />
