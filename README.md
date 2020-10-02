@@ -5,4 +5,4 @@ Julian Schmelz,
 Julian Banzhaf,
 Sujan Kanapathipillai,
 Christian Caniglia,
-Benjamin Ader
+Benjamin Ader.
