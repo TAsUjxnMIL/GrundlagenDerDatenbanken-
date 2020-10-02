@@ -1,0 +1,55 @@
+/*
+	Erledigt von: Sujan Kanapathipillai &Julian Schmelz &
+	 Julian Banzhaf & Salman Fichtner &
+	 Christian Chaniglia & Benjamin Ader
+*/
+
+CREATE TABLE Mitarbeiter
+(
+	MitarbeiterID INTEGER NOT NULL,
+	Name VARCHAR(100),
+	Vorname VARCHAR(40),
+	Geburtsdatum VARCHAR(40),
+	Gehalt INTEGER,
+	PRIMARY KEY(MitarbeiterID)
+);
+
+INSERT INTO Mitarbeiter
+VALUES(345634, 'Peter', 'Mueller', '09.10.1999', 3200);
+
+INSERT INTO Mitarbeiter
+VALUES(456745, 'Maria', 'Holle', '09.10.1999', 2000);
+
+INSERT INTO Mitarbeiter
+VALUES(567856, 'Stefan', 'Knolle', '26.08.1995', 3500);
+
+INSERT INTO Mitarbeiter
+VALUES(678967, 'Mario', 'Luigi', '13.03.2000', 1300);
+
+SELECT * FROM Mitarbeiter;
+
+SELECT * FROM Mitarbeiter WHERE Name='Stefan';
+
+SELECT * FROM Mitarbeiter WHERE Gehalt > 3000;
+
+SELECT COUNT(Mitarbeiterid) FROM Mitarbeiter;
+
+INSERT INTO Mitarbeiter
+VALUES(123412, 'Karl', 'Lama', '12.05.2001', 1700);
+
+SELECT COUNT(Mitarbeiterid) FROM Mitarbeiter;
+
+SELECT * FROM Mitarbeiter;
+
+DELETE FROM Mitarbeiter WHERE Name='Karl';
+
+SELECT * FROM Mitarbeiter;
+
+SELECT Count(geburtsdatum), Geburtsdatum
+FROM Mitarbeiter
+WHERE Geburtsdatum='09.10.1999'
+GROUP BY Geburtsdatum;
+
+SELECT COUNT(Mitarbeiterid) Anzahl, Gehalt
+FROM Mitarbeiter
+Group BY Gehalt;
