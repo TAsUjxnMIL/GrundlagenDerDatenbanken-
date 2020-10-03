@@ -5,7 +5,6 @@ Erklären Sie den Unterschied zwischen „Datenbank“ und „DBMS“.
 Was für Arten von Integritätsbedingungen, die DBMSe unterstützen, kennen Sie?
 •	Primär- und Fremdschlüssel
 
-
 Übungsaufgabe:
 CREATE TABLE Personen
 (
