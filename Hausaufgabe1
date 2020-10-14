@@ -1,0 +1,26 @@
+Was versteht man unter Datenbank-Schema?
+•	In einem Datenbankschema ist festgehalten, was für Daten in Tabellen gespeichert werden, wie diese gespeichert werden und in welchem Zusammenhang sie stehen.
+Erklären Sie den Unterschied zwischen „Datenbank“ und „DBMS“.
+•	Eine Datenbank ist der Speicher für Daten. Das Datenbankmanagementsystem (DBMS) verwaltet die Datenbank in dem es in ihr Daten strukturiert in Tabellen abspeichert und wieder zur Verfügung stellt.
+Was für Arten von Integritätsbedingungen, die DBMSe unterstützen, kennen Sie?
+•	Primär- und Fremdschlüssel
+
+Übungsaufgabe:
+CREATE TABLE Personen
+(
+  PersonenID INTEGER NOT NULL,
+  Name VARCHAR(100),
+  Jahrgang INTEGER,
+  Haarfarbe VARCHAR(100),
+  PRIMARY KEY(PersonenID)
+);
+
+Insert INTO Personen VALUES
+  (1, 'Max', 1998, 'braun'),
+  (2, 'Steffan', 2000, 'blond'),
+  (3, 'Luisa', 2000, 'braun'),
+  (4, 'Sascha', 1999, 'braun');
+
+Select * from Personen;
+select count(*) from personen where Jahrgang = 2000;
+select Haarfarbe, count(*) from personen GROUP By Haarfarbe;
